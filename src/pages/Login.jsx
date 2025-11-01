@@ -11,7 +11,7 @@ export function Login() {
             <Container>
                 <Navbar bg="dark" data-bs-theme="dark">
                     <Container>
-                        <Navbar.Brand href="#">Navbar</Navbar.Brand>
+                        <Navbar.Brand href="#">Minha App</Navbar.Brand>
                     </Container>
                 </Navbar>
             </Container>
@@ -21,12 +21,12 @@ export function Login() {
                     <Card.Body><Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email</Form.Label>
-                            <Form.Control type="email" placeholder="Seu Email" />
+                            <Form.Control type="email" placeholder="Enter Email" />
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Senha</Form.Label>
-                            <Form.Control type="password" placeholder="Senha" />
+                            <Form.Control type="password" placeholder="Password" />
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Entrar
